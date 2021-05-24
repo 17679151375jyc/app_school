@@ -1,0 +1,64 @@
+
+/*遮罩层*/
+.blacks {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  /*省市区三级联动*/
+  .divwrap {
+    height: 41%;
+    position: fixed;
+    left: 0;
+    bottom: 45px;
+    width: 100%;
+    z-index: 999999;
+  }
+  /*外部*/
+  .divwrap > .distpicker-address-wrapper {
+    color: #0d0d0d;
+    height: 100%;
+  }
+  
+  /*头部*/
+  .divwrap >>> .address-header {
+    background: #38f;
+    color: #fff;
+    width: 100%;
+    height 12vw;
+    line-height: 5vw
+    font-size: 8vw;
+  }
+  
+  /*头部内容*/
+  .divwrap >>> .address-header ul li {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 4.2vw;
+  }
+  
+  /*选择过省市区的头部*/
+  .divwrap >>> .address-header .active {
+    color: #fff;
+    border-bottom: 1vw solid #fff;
+  }
+  
+  /*内容部分*/
+  .divwrap >>> .address-container {
+    overflow: scroll;
+    height: 100%;
+    color: #3388ff
+  }
+  
+  /*点过的地区内容*/
+  .divwrap >>> .address-container .active {
+    color: red;
+  }
+  
+.slide-fade-enter, .slide-fade-leave-to{
+    transform: translateY(100vw);
+}

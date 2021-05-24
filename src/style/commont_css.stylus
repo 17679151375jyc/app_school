@@ -1,0 +1,96 @@
+.success_but_css{
+    background: linear-gradient(to right , #3388FF, #30CAFF)!important
+    border-radius: 1vw    
+    width:100%
+}
+.default_but_css{
+    background-color: #3388FF!important
+    border-radius: 1vw    
+    width:100%
+}
+.cube-select-icon{
+    border-color: #38f transparent transparent transparent;
+}
+.cube-input::after,.cube-select::after{
+    border: 1px solid #38f
+    border-radius: 10px
+}
+.cube-picker-confirm{
+    color: #3388ff
+}
+.cube-picker-wheel-item{
+    height: 0.75rem;
+    font-size: 4.2vw;
+}
+.cube-input_active{
+    border: 0!important    
+}
+.img_logo{
+    width: 30vw
+    height 30vw
+    margin: 3vw auto    
+    margin-bottom: 3vw
+}
+.cube-btn_disabled{
+    color: #fff!important;
+    background: #ccc;
+    position: relative;
+    border: 0!important;    
+}
+.page_box_css{
+    width 100vw
+    height 100vh
+    background-color: #ffffff
+    position: absolute
+    top: 0
+    left 0
+    z-index: 100
+}
+.Page_css{
+    width 100vw
+    height calc(100vh - 16vw)
+    overflow-y auto
+    overflow-x: hidden
+    font-size: 5.2vw
+    background-color: #ffffff
+}
+.hengxian_css{
+    width: 100vw
+    height 2.5vw
+    margin 0 auto
+    background-color #E1E5FA
+    display: block    
+    
+}
+.cube-slide-dots > span{
+    width: 2vw
+    height 2vw
+    border-radius: 50%
+    margin 0 0.8vw
+}
+.cube-slide-dots > span.active{
+    background-color: #38f
+    width: 2vw
+    height 2vw
+    border-radius: 50%
+}
+.cube-scroll-nav-bar-item_active{
+    color: #3388ff    
+    width: 18vw    
+    font-weight: bold
+    font-size: 4vw
+    border-bottom 1px solid #3388ff 
+}
+.cube-scroll-nav-bar_horizontal .cube-scroll-nav-bar-items{
+    background-color:#D8DFFE
+    // color #fff
+}
+.cube-scroll-nav-bar-item{
+    width: 18vw    
+}
+.cube-popup{
+    z-index 99999!important    
+}
+.cube-textarea_active::after{
+    border: 1px solid #38f
+}
